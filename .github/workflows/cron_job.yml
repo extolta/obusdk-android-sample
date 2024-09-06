@@ -1,0 +1,8 @@
+name: Schedule Cron Job
+
+on:
+  schedule:
+    - cron: '0 0 * * 1' # Runs every Monday at midnight
+jobs:
+  run_build:
+    uses: ./.github/workflows/build.yml

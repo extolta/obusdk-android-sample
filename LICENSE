@@ -1,0 +1,296 @@
+LTA Software Development Kit Terms of Use
+
+The Land Transport Authority of Singapore (“LTA”) may offer datasets through a
+Software Development Kit. Use of the datasets is governed by the Singapore Open
+Data Licence. The service through which you may access and/or use the LTA
+Software Development Kit (referred to herein as the “SDK” and specifically
+including but not limited to header files, libraries, simulators, and software (
+source code and object code labelled as part of the SDK) is subject to the terms
+set out in this LTA Software Development Kit Terms of Use (“SDK TOU”). The SDK
+TOU forms a legally binding agreement between you and LTA (each a “Party”, and
+collectively, the “Parties”) in relation to your access to, and/ or use of, the
+SDK.
+
+1. Accepting this SDK TOU
+
+   1.1 In order to access and/ or use the SDK, you must first agree to the terms
+   of this SDK TOU. You must not access and/ or use the SDK if you do not accept
+   the terms of this SDK TOU.
+
+   1.2 By clicking “I agree” in order to accept, and access and/or use this SDK,
+   you hereby agree to the terms of this SDK TOU.
+
+   1.3 If you are agreeing to be bound by this SDK TOU on behalf of your
+   employer or other entity, you represent and warrant that you have full legal
+   authority to bind your employer or such entity to this SDK TOU. If you do not
+   have the requisite authority, you shall not accept this SDK TOU, or access
+   and/ or use the SDK on behalf of your employer or other entity.
+
+2. SDK Licence from LTA
+
+   2.1 Subject to the terms of this SDK TOU, LTA hereby grants you a limited,
+   Singapore, royalty-free, non-assignable, non-exclusive and non-sublicensable
+   licence to use the SDK solely for the purpose of developing applications for
+   the Next-generation Electronic Road Pricing (ERP 2.0) on-board unit (
+   “OBU”) for LTA and/or third parties for both commercial and non-commercial
+   purposes. . You agree that LTA may at any time, through amendment(s) to the
+   terms of this SDK TOU, charge royalty fees, licence fees and any other fees
+   related thereto for any licence granted by LTA for your access to, and/or use
+   of the SDK.
+
+   2.2 You agree that LTA own all legal right, title and interest in and to, the
+   SDK and its datasets, including any Intellectual Property Rights that subsist
+   in the SDK and its datasets. “Intellectual Property Rights” for the purpose
+   of this SDK TOU, shall mean any and all rights under patent law, copyright
+   law, trade secret law, trademark law, and any and all other proprietary
+   rights. LTA reserves all rights not expressly granted to you.
+
+   2.3 You shall not use the SDK for any purpose not expressly permitted by this
+   SDK TOU. Except to the extent required by the applicable third party
+   licences, you shall not copy (except for backup purposes), modify, adapt,
+   redistribute, decompile, reverse engineer, disassemble, or create derivative
+   works of the SDK or any part thereof.
+
+   2.4 You agree that the form and nature of the SDK that LTA provides may
+   change at any time without prior notice to you, and that future versions of
+   the SDK may be incompatible with applications developed on previous versions
+   of the SDK.
+
+   2.5 You agree that LTA may at any time, stop (temporarily or permanently)
+   providing the SDK (or any features within the SDK) to you or to users
+   generally, at LTA’s sole and absolute discretion without any prior notice to
+   you or any other user.
+
+   2.6 Nothing in this SDK TOU grants you any rights over (a) any personal data
+   should any personal data be included or exposed through the SDK,
+   inadvertently or otherwise; and (b) any intellectual property (whether
+   belonging to LTA or otherwise) found in content accessible through the SDK.
+
+   2.7 You agree that you will not remove, obscure, or alter any proprietary
+   rights notices (including copyright and trademark notices) that may be
+   affixed to or contained within the SDK and its datasets.
+
+3. Use of the SDK by You
+
+   3.1 You are required to ensure that the application developed through the SDK
+   for Android and/or iOS operating systems (“OS”) displays a message prompt to
+   require motorists’ consent for the application’s use and/ or and access of
+   their data from the OBU.
+
+   3.1A In addition to Clause 3.1, if you are developing an alternative display
+   application for the OBU, you shall ensure that your application accurately
+   displays all of the information shared by the OBU), which will be made
+   available through the SDK. Such information to be displayed shall include but
+   are not limited to:
+   (a) Road Pricing alerts;
+   (b) Charging information;
+   (c) Information relating to payment status;
+   (d) Traffic information;
+   (e) Card balance;
+   (f) Card status; and
+   (g) Backend payment account indicator.
+
+   3.1B You are required to ensure that if no consent message is prompted by the
+   application, or if consent is not obtained from motorists pursuant to Clause
+   3.1, that the application does not use and/ or access the motorists’ data
+   from the OBU.
+
+   3.2 LTA agrees that it obtains no right, title or interest from you under
+   this SDK TOU in or to any software applications that you develop using the
+   SDK, including any Intellectual Property Rights that subsist in those
+   applications.
+
+   3.3 You agree that if you use the SDK to develop applications for general
+   public users, you will protect the privacy and legal rights of those users in
+   accordance with all applicable laws. If the users provide you with user
+   names, passwords, or other login information or personal information, you
+   must make the users aware that the information will be made available to your
+   application, and you must provide legally adequate privacy notice and
+   protection for those users. If your application stores personal or sensitive
+   information provided by users, it must do so securely.
+
+   3.4 You agree that you will not engage in any activity with the SDK,
+   including the development or distribution of an application, that interferes
+   with, disrupts, damages, or accesses in an unauthorized manner the servers,
+   networks, or other properties or services of any third party.
+
+   3.5 You agree that you are solely responsible for (and that LTA has no
+   responsibility to you or to any third party for) any data, content, or
+   resources that you create, transmit or display through your application(s),
+   and for the consequences of your actions (including any loss or damage which
+   LTA may suffer) by doing so.
+
+   3.6 You agree that you will credit the ERP 2.0 as an integral enabler of
+   the value-added services or features by displaying an acknowledgement in the
+   application clearly stating that the feature is empowered by ERP 2.0.
+
+   3.7 You agree that you are solely responsible for (and that LTA has no
+   responsibility to you or to any third party for) any breach of your
+   obligations under this SDK TOU, any applicable third party contract, or any
+   applicable law or regulation, and for the consequences (including any loss or
+   damage which LTA or any third party may suffer) of any such breach.
+
+   3.8 Without prejudice to Clause 9.1 of this SDK TOU, LTA makes no guarantee
+   whatsoever as to the suitability or compatibility of the SDK offered to you (
+   and as may be amended from time to time pursuant to this SDK TOU) with any
+   applications developed by you, for any and all operating systems generally (
+   including the aforesaid OS).
+
+4. Your Developer Credentials
+
+   4.1 You agree that you are solely responsible for maintaining the
+   confidentiality of any developer credentials that may be issued to you by LTA
+   or which you may choose yourself and that you will be solely responsible for
+   all applications developed under your developer credentials. For the purpose
+   of this SDK TOU, “developer credentials” shall mean the electronic mail
+   address provided by you when you first accepted the terms of this SDK TOU in
+   order to access and/ or use the SDK, as well as the SDK account key issued to
+   you by LTA in respect of such access and/ or use of the SDK.
+
+5. Third-Party Applications
+
+   5.1 If you use the SDK to run applications developed by a third party or that
+   access data, content or resources provided by a third party, you agree that
+   LTA is not responsible for those applications, data, content, or resources.
+   You understand that all data, content or resources which you may access
+   through such third-party applications are the sole responsibility of the
+   person or party from which they originated and that LTA is not responsible or
+   liable for any loss or damage that you may suffer as a result of any use or
+   access of any of those third party applications, data, content or resources.
+
+   5.2 You should be aware that the data, content, and resources presented to
+   you through such third party applications may be protected by Intellectual
+   Property Rights which are owned by the providers (or by other persons or
+   companies on their behalf). You may not modify, rent, lease, loan, sell,
+   distribute or create derivative works based on these data, content, or
+   resources (either in whole or in part) unless you have been specifically
+   given permission to do so by the relevant owners.
+
+   5.3 You acknowledge and agree that your use of such third party applications,
+   data, content, or resources may be subject to separate terms between you and
+   the relevant third party. In that case, the SDK TOU does not affect your
+   legal relationship with these third parties.
+
+6. Terminating this SDK TOU
+
+   6.1 The SDK TOU shall continue to apply until it is terminated by either you
+   or LTA as set out below.
+
+   6.2 If you want to terminate this SDK TOU, you may do so by ceasing your use
+   of the SDK and any relevant developer credentials.
+
+   6.3 LTA may at any time, terminate this SDK TOU or suspend your access to,
+   and/ or use of the SDK, for any reason whatsoever without any requirement to
+   provide any reason to you or any third party for the termination or
+   suspension. Upon such termination or suspension, you shall immediately stop
+   accessing and/ or using the SDK.
+
+   6.4 When this SDK TOU is terminated, all of the legal rights, obligations and
+   liabilities that you and/ or LTA have benefited from, been subject to (or
+   which have accrued over time whilst this SDK TOU is in force) or which are
+   expressed to continue indefinitely, as applicable, shall be unaffected by the
+   termination.
+
+   6.5 Clauses 8 (Disclaimer of Warranties (OBU data)), 9 (Disclaimer of
+   Warranties (SDK)), 10 (Limitation of Liability), 11 (Indemnification), 13 (
+   General Legal Terms) and any other provision of this SDK TOU which is
+   required to give effect to termination or the consequences of such
+   termination, shall survive the termination of this SDK TOU.
+
+7. Privacy and Information
+
+   7.1 In order to continually improve and update the SDK, LTA may, without any
+   requirement to obtain your consent, collect certain data from the software
+   including but not limited to the name of the application developed and the
+   bundle ID of the application.
+
+   7.2 The data collected is examined in the aggregate to improve and update the
+   SDK and is maintained in accordance with LTA’s Privacy Policy, which is
+   located at the following URL: [ https://go.gov.sg/lta-extol-privacystatement]
+
+8. Disclaimer of Warranties (OBU data)
+
+   8.1 The data from the OBU is provided on an "as is" and "as available" basis.
+   LTA makes no representations or warranties in relation to the OBU data,
+   including but not limited to any representation or warranty as to the
+   accuracy, completeness, reliability, service levels, continued availability,
+   timeliness, non-infringement, title, quality or fitness for any particular
+   purpose to the fullest extent permitted by the law.
+
+9. Disclaimer of Warranties (SDK)
+
+   9.1 You agree that that your access to, and/or use of the SDK and/or its
+   datasets is at your sole risk. The SDK is provided on an "as is" and "as
+   available" basis. LTA makes no representations or warranties in relation to
+   the SDK, including but not limited to any representation or warranty as to
+   the accuracy, completeness, reliability, service levels, continued
+   availability, timeliness, non-infringement, title, quality or fitness for any
+   particular purpose of the SDK to the fullest extent permitted by the law.
+
+10. Limitation of Liability
+
+    10.1 To the fullest extent permitted by law, LTA shall not be liable to you
+    or any other user or any third party whether in contract, tort (including
+    negligence), restitution, breach of statutory duty or otherwise, for damage
+    or loss of any kind arising directly or indirectly from your or any third
+    party's access to and/ or use of, or inability to access and/ or use, the
+    SDK and/ or its datasets.
+
+11. Indemnification
+
+    11.1 You shall indemnify LTA against all liabilities, damages, costs (
+    including legal costs) and expenses arising directly or indirectly from: (a)
+    any claim made by a third party in connection with your use of the SDK and/
+    or its datasets; (b) any system failure or downtime, and/or any lost or
+    damaged data or software, arising from or in connection with your use of the
+    SDK and/ or its datasets; (c) your violation of any rights of another
+    person; or (d) any claim made by a third party in connection with the third
+    party's use of the applications developed using the SDK and/ or its
+    datasets, or any derived analyses or applications which you have provided.
+
+12. Changes to the SDK TOU
+
+    12.1 LTA may in its sole and absolute discretion and at any time, make
+    changes to this SDK TOU to reflect updated versions of the SDK without
+    notice to all users and without having to provide any reason to any and all
+    users. When changes to the SDK TOU are made, LTA will, as soon as
+    practicable, make a new version of the SDK TOU available to the user via an
+    electronic mail sent to the user’s electronic mail address provided by the
+    user when the user first accepted the terms of this SDK TOU.
+
+    12.2 You acknowledge and agree that: (a) it is your personal responsibility
+    to check your electronic mailbox for any electronic mail sent by LTA
+    pursuant to Clause 12.1 of this SDK TOU, for any changes to the SDK TOU;
+    and (b) your continued access to, and/ or use of the SDK, following the
+    posting by LTA of any changes to the SDK TOU will be deemed by LTA to be
+    your acceptance of those changes.
+
+13. General Legal Terms
+
+    13.1 This SDK TOU constitutes the entire legal agreement between you and LTA
+    and governs your access to, and/ or use of the SDK (excluding any services
+    which LTA may provide to you under a separate written agreement, which
+    includes without limitation, any agreement in respect of access to LTA
+    Datamall and access to and/or use of API), and completely replaces any prior
+    agreements between you and LTA in relation to the SDK.
+
+    13.2 No exercise or failure to exercise or delay in exercising any right or
+    power or remedy vested in LTA under or pursuant to this SDK TOU or at law or
+    in equity, shall constitute a waiver by LTA of that right or power or remedy
+    or any other right, power or remedy.
+
+    13.3 No one other than a Party to this SDK TOU shall have any right to
+    enforce any of its terms.
+
+    13.4 You shall not assign or transfer the rights granted in this SDK TOU
+    without the prior written approval of LTA.
+
+    13.5 This SDK TOU shall be governed by and construed in accordance with the
+    laws of the Republic of Singapore. The Parties to this SDK TOU submit to the
+    exclusive jurisdiction of the Singapore courts.
+
+
+Third-Party Dependencies:
+
+- android-database-sqlcipher: BSD style License
+  https://github.com/sqlcipher/android-database-sqlcipher/blob/master/SQLCIPHER_LICENSE.
