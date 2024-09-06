@@ -47,11 +47,6 @@ repositories {
 }
 ```
 
-## Developer guide
-
-Developer guide for iOS and Android is available
-at [guide](https://datamall.lta.gov.sg/content/dam/datamall/pdf/Extended_OBU_Library_SDK_Developer_Guide.pdf)
-
 ## Changelog
 
 All changes are documented in [CHANGELOG.md](CHANGELOG.md)
