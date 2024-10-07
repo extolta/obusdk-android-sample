@@ -71,7 +71,7 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
-    implementation("sg.gov.lta:extol:1.1.1")
+    implementation("sg.gov.lta:extol:2.0.0")
 
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
 
