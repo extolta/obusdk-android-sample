@@ -40,5 +40,5 @@ object MockManager {
                     ),
                 )
             )
-            .setCyclicMode(false).setCardBalance(1000).build() // $10
+            .setCyclicMode(false).setCardBalance(1000).setTimeInterval(3000).build() // $10
 }
