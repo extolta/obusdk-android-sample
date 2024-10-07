@@ -1,6 +1,6 @@
 # obusdk-android-sample
 
-![Static Badge](https://img.shields.io/badge/release-v1.1.1-blue)
+![Static Badge](https://img.shields.io/badge/release-v2.0.0-blue)
 [![build](https://github.com/extolta/obusdk-android-sample/actions/workflows/build.yml/badge.svg)](https://github.com/extolta/obusdk-android-sample/actions/workflows/build.yml)
 
 This repository provides a sample app to assist you in integrating the obusdk and its APIs into your
@@ -33,7 +33,7 @@ To integrate the SDK into your own applications, add the dependency:
 
 ```groovy
 dependencies {
-    implementation "sg.gov.lta:extol:1.1.1"
+    implementation "sg.gov.lta:extol:2.0.0"
 }
 ```
 
