@@ -1,6 +1,6 @@
 # obusdk-android-sample
 
-![Static Badge](https://img.shields.io/badge/release-v2.0.0-blue)
+![Static Badge](https://img.shields.io/badge/release-v2.1.0-blue)
 [![build](https://github.com/extolta/obusdk-android-sample/actions/workflows/build.yml/badge.svg)](https://github.com/extolta/obusdk-android-sample/actions/workflows/build.yml)
 
 This repository provides a sample app to assist you in integrating the obusdk and its APIs into your
