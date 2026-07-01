@@ -5,7 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.1.0] - 2025-07-325
+## [2.1.1] - 2026-07-01
+
+- Removed the Appmattus Certificate Transparency library from the SDK. The library depends on Google's Certificate Transparency (CT) log list, which is now frozen for third-party libraries. Certificate Transparency is already enforced at the Android platform level on supported devices.
+
+Note: No API changes. This is a drop-in replacement for 2.1.0.
+  
+## [2.1.0] - 2025-07-25
 
 ### New Features
 
