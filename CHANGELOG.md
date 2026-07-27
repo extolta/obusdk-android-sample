@@ -5,6 +5,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.0.0] - 2026-07-27
+
+### New Features
+
+- Added support for upcoming OBU functions: Location Based Charging, Roadside Electronic Parking (REP), and Checkpoint Tolling (CPT)
+- `ERPMessage` — a new public sealed class representing all ERP/roadside messages, with these subtypes:
+  - AlertPointMessage, ChargingMessage, DeductionSuccessfulMessage, DeductionFailureMessage etc.
+  - Each carries a businessFunction: OBUBusinessFunction and type-specific fields.
+- Added support for Android 16 (API level 36)
+
+### Breaking Changes
+
+- `OBUChargingInformation` API has been replaced by a new `ERPMessage` API.
+- `OBUDataListener` callbacks renamed:
+  - `onChargingInformation(chargingInfo: List<OBUChargingInformation>)` → `onERPMessage(erpMessages: List<ERPMessage>)`
+  - `onErpChargingAndTrafficInfo(trafficInfo, chargingInfo)` → `onERPMessageAndTrafficInfo(trafficInfo, erpMessages: List<ERPMessage>?)`
+- `OBUData` — `chargingInformations: List<OBUChargingInformation>?` property is removed and replaced by `erpMessages: List<ERPMessage>?`
+- `OBUChargingType` — the `Common` enum value is removed.
+- Mock ERP events are now grouped by message type and created with Mock factory helpers. For example, `CommonAlertPointDetected()` becomes `ERPEvent.CommonAlertMessage.Mock.erp(...)`
+- `MockEvent` constructor fields renamed — `electronics: List<ERPEvent>?` → `erpEvents`, and `tdcid: TdcidEvent` → `tdcidEvent`.
+- `MockedConnectionHandler.Builder.setTimeInterval(...)` now takes the interval in **seconds** instead of milliseconds.
+
+### Note
+
+- On Android 16, the system now shows the user a discovery timeout dialog
+
 ## [2.1.1] - 2026-07-01
 
 - Removed the Appmattus Certificate Transparency library from the SDK. The library depends on Google's Certificate Transparency (CT) log list, which is now frozen for third-party libraries. Certificate Transparency is already enforced at the Android platform level on supported devices.
