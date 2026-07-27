@@ -15,8 +15,8 @@ import sg.gov.lta.obu.sdk.core.enums.BluetoothState
 import sg.gov.lta.obu.sdk.core.enums.OBUCardStatus
 import sg.gov.lta.obu.sdk.core.enums.OBUChargingPaymentMode
 import sg.gov.lta.obu.sdk.core.enums.OBUPaymentMode
+import sg.gov.lta.obu.sdk.core.models.ERPMessage
 import sg.gov.lta.obu.sdk.core.models.OBUAcceleration
-import sg.gov.lta.obu.sdk.core.models.OBUChargingInformation
 import sg.gov.lta.obu.sdk.core.models.OBUPaymentHistory
 import sg.gov.lta.obu.sdk.core.models.OBUTotalTripCharged
 import sg.gov.lta.obu.sdk.core.models.OBUTrafficInfo
@@ -185,8 +185,20 @@ class MainViewModel : ViewModel() {
     fun subscribeObuDataListener() {
         val dataListener = object : OBUDataListener {
 
-            override fun onChargingInformation(chargingInfo: List<OBUChargingInformation>) {
-                printLog("[onChargingInformation] chargingInfo=$chargingInfo")
+            override fun onERPMessage(erpMessages: List<ERPMessage>) {
+                printLog("[onERPMessage] erpMessages=$erpMessages")
+            }
+
+            override fun onTrafficInformation(trafficInfo: OBUTrafficInfo<out Any>) {
+                printLog("[onTrafficInformation] trafficInfo=$trafficInfo")
+            }
+
+            override fun onERPMessageAndTrafficInfo(
+                trafficInfo: OBUTrafficInfo<out Any>?,
+                erpMessages: List<ERPMessage>?
+            ) {
+                printLog("[onERPMessageAndTrafficInfo] trafficInfo=$trafficInfo" +
+                        " erpMessages=$erpMessages")
             }
 
             override fun onVelocityInformation(velocity: Double) {
@@ -213,22 +225,8 @@ class MainViewModel : ViewModel() {
                 printLog("[onPaymentHistories] histories=$histories")
             }
 
-            override fun onTrafficInformation(trafficInfo: OBUTrafficInfo<out Any>) {
-                printLog("[onTrafficInformation] trafficInfo=$trafficInfo")
-            }
-
             override fun onError(error: OBUError) {
                 printLog("[onError] error=$error")
-            }
-
-            override fun onErpChargingAndTrafficInfo(
-                trafficInfo: OBUTrafficInfo<out Any>?,
-                chargingInfo: List<OBUChargingInformation>?
-            ) {
-                printLog(
-                    "[onErpChargingAndTrafficInfo] trafficInfo=$trafficInfo " +
-                            "chargingInfo=$chargingInfo"
-                )
             }
 
             override fun onTotalTripCharged(totalCharged: OBUTotalTripCharged) {
